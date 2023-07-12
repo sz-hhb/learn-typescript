@@ -1,10 +1,10 @@
 interface IBar {
   name: string
-  age: 18
+  age: number
   (num1: number): number
 }
 
-const bar = (num1: number): number => {
+const bar: IBar = (num1: number): number => {
   return 123
 }
 
